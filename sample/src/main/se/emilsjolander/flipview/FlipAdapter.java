@@ -12,8 +12,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import se.emilsjolander.flipview.R;
-
 public class FlipAdapter extends BaseAdapter implements OnClickListener {
 	
 	public interface Callback{
