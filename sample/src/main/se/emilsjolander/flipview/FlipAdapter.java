@@ -1,7 +1,4 @@
-package se.emilsjolander.flipview;
-
-import java.util.ArrayList;
-import java.util.List;
+package main.se.emilsjolander.flipview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +8,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import se.emilsjolander.flipview.R;
 
 public class FlipAdapter extends BaseAdapter implements OnClickListener {
 	
